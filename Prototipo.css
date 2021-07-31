@@ -1,0 +1,25 @@
+.contenedor{
+width: 1080px;
+height: 130px;
+background:-webkit-gradient(linear, 80% 20%, 10% 21%, from(#23C2FF), to(#4E65A5));
+text-align: center;
+padding: 3px;
+margin-bottom: 10px;
+}
+#contenedor_temporizador{
+    width: 100px;
+    height: 40px;
+    background: #23C2FF;
+    margin-top: 10px;
+
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 8px;
+}
+#contenedor_puntaje{
+    width: 100px;
+    height: 40px;
+    background: #23C2FF;
+  margin-left: auto;
+  margin-right: auto;
+}
