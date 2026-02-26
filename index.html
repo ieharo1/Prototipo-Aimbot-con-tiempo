@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AIM LEGEND - FPS Trainer</title>
+    <title>AIM LEGEND - FPS Trainer | Isaac Haro</title>
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🎯</text></svg>">
     <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Rajdhani:wght@400;600;700&display=swap" rel="stylesheet">
     <style>
         * {
@@ -353,6 +354,10 @@
             font-family: 'Orbitron', sans-serif;
             font-size: 18px;
             color: #666;
+            background: rgba(0, 0, 0, 0.7);
+            padding: 10px 20px;
+            border-radius: 8px;
+            border: 1px solid #00ffaa;
         }
 
         .accuracy-display span {
@@ -474,7 +479,7 @@
         <canvas id="gameCanvas" width="1200" height="700"></canvas>
 
         <div class="accuracy-display">
-            Accuracy: <span id="accuracyPercent">100%</span> | Hits: <span id="hits">0</span> | Shots: <span id="shots">0</span>
+            Precisión: <span id="accuracyPercent">100%</span> | Aciertos: <span id="hits">0</span> | Tiros: <span id="shots">0</span>
         </div>
 
         <div class="health-bar">
@@ -486,35 +491,35 @@
 
         <div class="start-screen" id="startScreen">
             <div class="game-title">AIM LEGEND</div>
-            <div class="game-subtitle">FPS TRAINER</div>
+            <div class="game-subtitle">ENTRENADOR FPS</div>
             
             <div class="difficulty-selector">
-                <button class="difficulty-btn easy active" data-difficulty="easy">Rookie</button>
-                <button class="difficulty-btn medium" data-difficulty="medium">Pro</button>
-                <button class="difficulty-btn hard" data-difficulty="hard">Legend</button>
+                <button class="difficulty-btn easy active" data-difficulty="easy">Novato</button>
+                <button class="difficulty-btn medium" data-difficulty="medium">Profesional</button>
+                <button class="difficulty-btn hard" data-difficulty="hard">Leyenda</button>
             </div>
 
-            <button class="btn-start" id="btnStart">START GAME</button>
+            <button class="btn-start" id="btnStart">INICIAR JUEGO</button>
 
             <div class="stats">
-                <div class="stat-item">Click on targets as fast as you can!</div>
-                <div class="stat-item">Combo multiplier: <span>x1 - x10</span></div>
-                <div class="stat-item">Don't miss or you'll lose health!</div>
+                <div class="stat-item">¡Haz clic en los objetivos lo más rápido posible!</div>
+                <div class="stat-item">Multiplicador de combo: <span>x1 - x10</span></div>
+                <div class="stat-item">¡Si fallas perderás salud!</div>
             </div>
         </div>
 
         <div class="end-screen hidden" id="endScreen">
-            <div class="game-title">GAME OVER</div>
-            <div class="game-subtitle" id="finalScore">Final Score: 0</div>
+            <div class="game-title">FIN DEL JUEGO</div>
+            <div class="game-subtitle" id="finalScore">Puntuación Final: 0</div>
             
             <div class="stats">
-                <div class="stat-item">Hits: <span id="finalHits">0</span></div>
-                <div class="stat-item">Shots: <span id="finalShots">0</span></div>
-                <div class="stat-item">Accuracy: <span id="finalAccuracy">0%</span></div>
-                <div class="stat-item">Max Combo: <span id="finalCombo">x1</span></div>
+                <div class="stat-item">Aciertos: <span id="finalHits">0</span></div>
+                <div class="stat-item">Tiros: <span id="finalShots">0</span></div>
+                <div class="stat-item">Precisión: <span id="finalAccuracy">0%</span></div>
+                <div class="stat-item">Combo Máximo: <span id="finalCombo">x1</span></div>
             </div>
 
-            <button class="btn-start" id="btnRestart" style="margin-top: 30px">PLAY AGAIN</button>
+            <button class="btn-start" id="btnRestart" style="margin-top: 30px">JUGAR DE NUEVO</button>
         </div>
     </div>
 

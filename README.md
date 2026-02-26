@@ -1,19 +1,25 @@
-# 🎯 Prototipo Aimbot con Tiempo
+# 🎯 AIM LEGEND - FPS Trainer
 
-Prototipo de aimbot con temporizador desarrollado por **Isaac Esteban Haro Torres**.
+Juego de entrenamiento de aim con calidad profesional desarrollado por **Isaac Esteban Haro Torres**.
 
 ---
 
 ## 📝 Descripción
 
-Prototipo de juego o herramienta con funcionalidad de aimbot y control de tiempo.
+Juego FPS Trainer con:
+- 🎯 Sistema de dianas con dificultad configurable
+- ⏱️ Temporizador y puntuación
+- 🔥 Combo multiplier
+- 💀 Diferentes tipos de objetivos (normal, oro, rojo)
+- 📊 Estadísticas en tiempo real
 
 ---
 
 ## 🛠️ Stack Tecnológico
 
-- Python
-- OpenCV
+- HTML5
+- CSS3 (animaciones, efectos)
+- JavaScript (canvas, game logic)
 
 ---
 
